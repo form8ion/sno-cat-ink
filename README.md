@@ -37,7 +37,11 @@ $ npm install @form8ion/sno-cat-ink --save-prod
 ### Example
 
 ```javascript
-import snoCatInk from '@form8ion/sno-cat-ink';
+import {groom} from '@form8ion/sno-cat-ink';
+
+(async () => {
+  await groom();
+})();
 ```
 
 ## Contributing
