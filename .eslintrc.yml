@@ -1,3 +1,4 @@
 extends:
   - '@form8ion'
+  - '@form8ion/react'
   - '@form8ion/mocha'
