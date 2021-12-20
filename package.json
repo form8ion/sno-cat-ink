@@ -38,7 +38,8 @@
     "test:unit:base": "DEBUG=any mocha 'src/**/*-test.js'",
     "lint:peer": "npm ls >/dev/null",
     "preexample": "npm run build:js",
-    "example": "babel-node ./example.js"
+    "example": "babel-node ./example.js",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@babel/node": "^7.10.5",
@@ -59,7 +60,7 @@
     "cz-conventional-changelog": "3.2.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
-    "husky": "4.2.5",
+    "husky": "7.0.4",
     "lockfile-lint": "4.3.7",
     "mocha": "8.1.0",
     "npm-run-all": "4.1.5",
